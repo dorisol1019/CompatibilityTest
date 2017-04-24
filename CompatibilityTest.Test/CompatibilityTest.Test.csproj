@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="template.json" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CompatibilityTest\CompatibilityTest.csproj">

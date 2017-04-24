@@ -1,0 +1,112 @@
+{
+  "name": "佐藤一郎",
+  "questions": [
+    {
+      "id": 1,
+      "text": "今日できることは？",
+      "answerOption": [
+        {
+          "type": 0,
+          "label": "明日やる",
+          "nextId": 2
+        },
+        {
+          "type": 0,
+          "label": "今日やる",
+          "nextId": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "車で揺られると眠くなる？",
+      "answerOption": [
+        {
+          "type": 1,
+          "label": "はい",
+          "nextId": 1
+        },
+        {
+          "type": 1,
+          "label": "いいえ",
+          "nextId": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "友達は多い方？",
+      "answerOption": [
+        {
+          "type": 1,
+          "label": "あまり",
+          "nextId": 3
+        },
+        {
+          "type": 1,
+          "label": "まあそうかな",
+          "nextId": 4
+        }
+      ]
+    }
+  ],
+  "defaultResultMessage": "{nickname}のようだ。",
+  "results": [
+    {
+      "id": 1,
+      "name": "佐藤次郎",
+      "nickname": "俺の弟"
+    },
+    {
+      "id": 2,
+      "name": "佐藤一郎",
+      "nickname": "俺",
+      "message": "えっと、俺でした"
+    },
+    {
+      "id": 3,
+      "name": "佐藤大五郎",
+      "nickname": "俺のオヤジ",
+      "message": "{nickname}だ"
+    },
+    {
+      "id": 4,
+      "name": "佐藤由紀恵",
+      "nickname": "ママ",
+      "message": "佐藤由紀恵……俺の{nickname}のようだな"
+    }
+  ],
+  "beginningMessages": [
+    "お前たち、これから相性診断を初める",
+    "いまから質問と選択肢が表示されるが、深く考えず、気分で選んでくれ。\n質問に答えることで相性がぴったりの相手を俺が選ぶ。",
+    "それじゃ、スタートだ"
+  ],
+  "replayMessages_firstHalf": [
+    "結果が分かった。お前と最も相性がいい相手は……"
+  ],
+  "replayMessages_latterHalf": [
+    "お疲れさま。これで相性診断はおしまいだ"
+  ],
+  "replayQuestion": {
+    "id": 0,
+    "text": "え？　もう一回やりたいか？",
+    "answerOption": [
+      {
+        "type": 2,
+        "label": "やりたい",
+        "nextId": 0
+      },
+      {
+        "type": 3,
+        "label": "おわる",
+        "nextId": 0
+      }
+    ]
+  },
+  "replayMessages": [
+    "仕方ない、もう一回だけやらせてやろう。"
+  ],
+  "endingMessages": [
+    "さよなら"
+  ]
+}

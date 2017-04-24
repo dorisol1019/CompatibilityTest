@@ -12,7 +12,7 @@ namespace Bot.Interactive.Sample
     {
         static void Main(string[] args)
         {
-            CompatibilityTest compatibilityTest = new CompatibilityTest("template.json");
+            CompatibilityTest compatibilityTest = new CompatibilityTest("../../template.json");
 
             do
             {
